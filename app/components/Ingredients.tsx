@@ -1,13 +1,5 @@
 // app/components/Ingredients.tsx
 const Ingredients = () => {
-    const ingredients = [
-        { name: 'Vitamin C', image: '/images/h1.png' },
-        { name: 'Vitamin D', image: '/images/h2.png' },
-        { name: 'Magnesium', image: '/images/h3.png' },
-        { name: 'Hyarulonic Acid', image: '/images/h4.png' },
-        { name: 'Lactobacillus', image: '/images/h5.png' },
-    ];
-
     return (
         <section className="px-[160px] py-[80px]">
 
