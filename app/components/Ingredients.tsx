@@ -1,17 +1,10 @@
 // app/components/Ingredients.tsx
 const Ingredients = () => {
-    const ingredients = [
-        { name: 'Vitamin C', image: '/images/h1.png' },
-        { name: 'Vitamin D', image: '/images/h2.png' },
-        { name: 'Magnesium', image: '/images/h3.png' },
-        { name: 'Hyarulonic Acid', image: '/images/h4.png' },
-        { name: 'Lactobacillus', image: '/images/h5.png' },
-    ];
 
     return (
-        <section className="px-[160px] py-[80px]">
+        <section className="lg:px-[160px] lg:py-[80px] ">
 
-            <div className="mx-20 mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="lg:mx-20 mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="flex-cloumn justify-start relative w-[300px] h-[180px] mx-auto">
                     <h1 className="text-xs font-bold text-cyan-950 uppercase">Ingredients</h1>
                     <h2 className="text-3xl font-bold text-cyan-950 my-5">Better Ingredients</h2>

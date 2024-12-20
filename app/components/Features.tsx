@@ -14,7 +14,7 @@ const InfoBox: React.FC<InfoBoxProps> = ({ title, description, icon }) => (
     </div>
     <div className="relative text-center">
       <h3 className="text-white text-[16px] mt-10 mb-5 font-medium">{title}</h3>
-      <p className="text-white text-[10px] mb-[30px]">{description}</p>
+      <p className="text-white text-[10px] ">{description}</p>
     </div>
   </div>
 );
@@ -22,8 +22,8 @@ const InfoBox: React.FC<InfoBoxProps> = ({ title, description, icon }) => (
 
 const InfoBoxSection = () => {
   return (
-    <div className="relative flex px-[250px] h-w-full -mt-20 z-10">
-      <div className="relative w-[1000px] h-[400px] bg-[#17414F] rounded-[80px] p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-3 gap-x-2 justify-items-center">
+    <div className="relative justify-center pt-3 px-6 sm:px-[100px] md:px-[150px] lg:px-[250px] -mt-20 z-10">
+      <div className="relative h-auto lg:h-[350] w-full max-w-6xl bg-[#17414F] rounded-[40px] sm:rounded-[80px] p-6 sm:p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-3 gap-x-2 justify-items-center">
         <InfoBox
           title="Clinically Studied"
           description="All products that we offer have undergone lab and safety tests"
@@ -35,7 +35,7 @@ const InfoBoxSection = () => {
                   alt="Vitamins Bottle"
                   width={50}
                   height={50}
-                  className="m-3 p-2"
+                  className="m-2 sm:m-3 p-2 sm:p-3"
                 />
               </div>
             </div>
@@ -52,7 +52,7 @@ const InfoBoxSection = () => {
                   alt="Vitamins Bottle"
                   width={50}
                   height={50}
-                  className="m-3 p-2"
+                  className="m-2 sm:m-3 p-2"
                 />
               </div>
             </div>
@@ -69,7 +69,7 @@ const InfoBoxSection = () => {
                   alt="Vitamins Bottle"
                   width={50}
                   height={50}
-                  className="m-3 p-2"
+                  className="m-2 sm:m-3 p-2"
                 />
               </div>
             </div>
@@ -86,7 +86,7 @@ const InfoBoxSection = () => {
                   alt="Vitamins Bottle"
                   width={50}
                   height={50}
-                  className="m-3 p-2"
+                  className="m-2 sm:m-3 p-2"
                 />
               </div>
             </div>
@@ -103,7 +103,7 @@ const InfoBoxSection = () => {
                   alt="Vitamins Bottle"
                   width={50}
                   height={50}
-                  className="m-3 p-2"
+                  className="m-2 sm:m-3 p-2"
                 />
               </div>
             </div>
@@ -120,7 +120,7 @@ const InfoBoxSection = () => {
                   alt="Vitamins Bottle"
                   width={50}
                   height={50}
-                  className="m-3 p-2"
+                  className="m-2 sm:m-3 p-2"
                 />
               </div>
             </div>
