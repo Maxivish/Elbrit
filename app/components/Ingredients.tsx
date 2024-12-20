@@ -2,7 +2,7 @@
 const Ingredients = () => {
 
     return (
-        <section className="lg:px-[160px] lg:py-[80px] ">
+        <section className="w-full lg:px-[160px] lg:py-[80px] ">
 
             <div className="lg:mx-20 mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="flex-cloumn justify-start relative w-[300px] h-[180px] mx-auto">
